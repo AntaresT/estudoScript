@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import socket
 
 target_host = "www.google.com" #Host Alvo
@@ -6,7 +7,7 @@ target_port = 80 #Porta do Host
 #Criando um objeto socket
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-#Efetua a conexão com o alvo
+#Efetua a conexao com o alvo
 client.connect((target_host, target_port))
 
 #Envia alguns dados
